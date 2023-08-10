@@ -8,6 +8,27 @@
     <title>Document</title>
 </head>
 <style>
+    /* general styling */
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #f1f2f3;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
     .round {
         position: relative;
     }
@@ -78,27 +99,6 @@
 
     .round input[type="checkbox"]:checked+label:after {
         opacity: 1;
-    }
-
-    /* general styling */
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-    }
-
-    body {
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background-color: #f1f2f3;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-
-    .container {
-        margin: 0 auto;
     }
 
     input[type='checkbox']:checked+label span {
